@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Chips-Landing-Page/static/css/main.a2965c7c.css",
-    "main.js": "/Chips-Landing-Page/static/js/main.006d657a.js",
-    "static/media/green.png": "/Chips-Landing-Page/static/media/green.32ed933eab6a05966428.png",
-    "static/media/purple.png": "/Chips-Landing-Page/static/media/purple.8f5316314616d36f35af.png",
-    "static/media/red.png": "/Chips-Landing-Page/static/media/red.f49c7b67ed97047dad12.png",
-    "static/media/yellow.png": "/Chips-Landing-Page/static/media/yellow.9ab5036f5c0ba98af3cc.png",
-    "static/media/sssurf.svg": "/Chips-Landing-Page/static/media/sssurf.278a18090a4ce13d580e.svg",
-    "index.html": "/Chips-Landing-Page/index.html",
-    "main.a2965c7c.css.map": "/Chips-Landing-Page/static/css/main.a2965c7c.css.map",
-    "main.006d657a.js.map": "/Chips-Landing-Page/static/js/main.006d657a.js.map"
+    "main.css": "/Chips-Landing-page/static/css/main.a3a6df01.css",
+    "main.js": "/Chips-Landing-page/static/js/main.7c1f0a4d.js",
+    "static/media/green.png": "/Chips-Landing-page/static/media/green.32ed933eab6a05966428.png",
+    "static/media/purple.png": "/Chips-Landing-page/static/media/purple.8f5316314616d36f35af.png",
+    "static/media/red.png": "/Chips-Landing-page/static/media/red.f49c7b67ed97047dad12.png",
+    "static/media/yellow.png": "/Chips-Landing-page/static/media/yellow.9ab5036f5c0ba98af3cc.png",
+    "static/media/sssurf.svg": "/Chips-Landing-page/static/media/sssurf.278a18090a4ce13d580e.svg",
+    "index.html": "/Chips-Landing-page/index.html",
+    "main.a3a6df01.css.map": "/Chips-Landing-page/static/css/main.a3a6df01.css.map",
+    "main.7c1f0a4d.js.map": "/Chips-Landing-page/static/js/main.7c1f0a4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2965c7c.css",
-    "static/js/main.006d657a.js"
+    "static/css/main.a3a6df01.css",
+    "static/js/main.7c1f0a4d.js"
   ]
 }
