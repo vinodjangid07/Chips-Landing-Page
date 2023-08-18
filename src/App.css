@@ -1,0 +1,381 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::selection {
+  background-color: gray;
+}
+
+*::-moz-selection {
+  background: gray;
+}
+
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+:root{
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  cursor:default;
+}
+body{
+  overflow-x: hidden;
+}
+.HomeMainContainer{
+  padding-top: 100px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./Images/sssurf.svg);
+  
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color:rgb(63, 114, 255);
+}
+.textContainer{
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 100px;
+}
+.headerText{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-right: 150px;
+  gap: 30px;
+}
+.heading{
+  font-size: 7rem;
+  color: white;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 1px;
+}
+.subheading{
+  font-size: 1.9rem;
+  color: rgb(222, 222, 222);
+}
+.buybutton{
+  width: 250px;
+  height: 80px;
+  border-radius: 80px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  font-size: 1.7rem;
+  cursor: pointer;
+  background-color: rgb(116, 146, 71);
+  transition: all .3s;
+}
+.buybutton:hover{
+  transform: scale(1.1);
+}
+.CompanyReachText{
+  display: flex;
+  width: 100%;
+  height: 20%;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.ChildContainer{
+  width:fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.digits{
+  font-size: 4rem;
+  color: black;
+  font-weight: 600;
+}
+.ordersText{
+  font-size: 1.7em;
+  color: black;
+}
+.imageContainer{
+  width: 45%;
+  height: 100%;
+}
+.chipspacket{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.chipspacketimage1{
+  position: absolute;
+  z-index: 2;
+  height: 95%;
+}
+.chipspacketimage2{
+  position: absolute;
+  z-index: 1;
+  height: 95%;
+  /* rotate: (-40deg); */
+  transform: rotate(-10deg);
+  transform-origin: bottom;
+  transition-duration: .3s;
+}
+
+.image-enter-active {
+  animation: slide-in-elliptic-bottom-fwd 0.7s ;
+}
+
+@keyframes slide-in-elliptic-bottom-fwd {
+  0% {
+            transform: translateX(600px) rotate(200deg) scale(0);
+            transform-origin: center;
+
+  }
+
+  100% {
+            transform: translateX(0) rotate(0) scale(1);
+            transform-origin: center;
+  }
+}
+.image-enter-active2 {
+  animation: slide-in-elliptic-bottom-fwd2 0.7s ;
+}
+
+@keyframes slide-in-elliptic-bottom-fwd2 {
+  0% {
+            transform: translateX(600px) rotate(200deg) scale(1);
+            transform-origin: center;
+            opacity: 1;
+  }
+
+  100% {
+            transform: translateX(0) rotate(-10deg) scale(1);
+            transform-origin: bottom;
+            opacity: 1;
+  }
+}
+
+
+
+.buttonsContainer{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+.minibuttonContainer{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
+  padding-top: 30px;
+}
+
+.chipsButton{
+  width: 60px;
+  border-radius: 40px;
+  height: 40px;
+  border: none;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.209);
+  cursor: pointer;
+  transition: all .2s;
+} 
+.chipsButton:hover{
+  transform: translateY(-4px);
+}
+.yellow{
+  background-color: #fbb034;
+background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+.red{
+  background-color: #ea2027;
+background-image: linear-gradient(315deg, #ea2027 0%, #ee5a24 74%);
+
+}
+.blue{
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  
+}
+.green{
+  background-color: #378b29;
+background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
+}
+.activeButton{
+  transform: translateY(-5px) scale(1.2);
+}
+.buttonContext{
+  font-size: 2rem;
+  color: black;
+  height: 100%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sufflesvg{
+  height: 20px;
+}
+.sufflesvg svg{
+
+  fill:black;
+  height: 1.8rem;
+}
+
+.AboutMainContainer{
+  background-color:rgb(63, 114, 255);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 8rem;
+  font-weight: 800;
+}
+/* responsive code below*/
+@media screen and (max-width:1920px) {
+  html {
+      font-size: 60%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  html {
+      font-size: 60%;
+  }
+  .HomeMainContainer{
+    height: fit-content;
+    flex-direction: column;
+    padding: 100px 100px 50px 100px;
+    gap: 50px;
+  }
+  .textContainer{
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    gap: 30px;
+  }
+  .headerText{
+    height: fit-content;
+    padding: 0;
+    gap: 30px;
+  }
+  .heading{
+    line-height: 60px;
+  }
+  .CompanyReachText{
+    height: fit-content;
+  }
+  .digits,.ordersText{
+    color: white;
+  }
+  .imageContainer{
+    height: fit-content;
+    width: 100%;
+  }
+  .chipspacket{
+    height: 600px;
+  }
+  .buttonsContainer{
+    height: fit-content;
+    padding: 30px 0px;
+    gap: 20px;
+  }
+  .minibuttonContainer{
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width:998px) {
+  html {
+      font-size: 55%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  html {
+      font-size: 50%;
+  }
+  .HomeMainContainer{
+    padding: 100px 50px 50px 50px;
+  }
+  .CompanyReachText{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .ChildContainer{
+    gap: 10px;
+  }
+  .digits,.ordersText{
+    mix-blend-mode: difference;
+  }
+  .buybutton{
+    width: 200px;
+    height: 60px;
+  }
+  .chipspacket {
+    height: 400px;
+  }
+  .minibuttonContainer{
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  html {
+      font-size: 45%;  
+  }
+  .chipspacket{
+    height: 300px;
+  }
+  .HomeMainContainer{
+    background-size: 600%;
+    padding: 100px 30px 50px 30px;
+  }
+  .textContainer{
+    gap: 30px;
+  }
+  .digits{
+    color: rgb(255, 233, 233);
+  }
+}
+
+@media screen and (max-width:430px) {
+  html {
+      font-size: 43%;
+  }
+}
+
+@media screen and (max-width:375px) {
+  html {
+      font-size: 40%;
+  }
+}
+@media screen and (max-width:300px) {
+  html {
+      font-size: 40%;
+  }
+}
+
+/* responsive code above */
+
